@@ -26,6 +26,7 @@
 		2399C3EB1EF8B200007DCEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2399C3EE1EF8B200007DCEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2399C3F01EF8B200007DCEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2399C3F61EF8B22F007DCEDD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +63,6 @@
 				2399C3E31EF8B200007DCEDD /* AppDelegate.m */,
 				2399C3E51EF8B200007DCEDD /* ViewController.h */,
 				2399C3E61EF8B200007DCEDD /* ViewController.m */,
-				2399C3E81EF8B200007DCEDD /* Main.storyboard */,
-				2399C3EB1EF8B200007DCEDD /* Assets.xcassets */,
-				2399C3ED1EF8B200007DCEDD /* LaunchScreen.storyboard */,
-				2399C3F01EF8B200007DCEDD /* Info.plist */,
 				2399C3DF1EF8B200007DCEDD /* Supporting Files */,
 			);
 			path = ZGExclusiveTouch;
@@ -74,7 +71,12 @@
 		2399C3DF1EF8B200007DCEDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2399C3E81EF8B200007DCEDD /* Main.storyboard */,
+				2399C3EB1EF8B200007DCEDD /* Assets.xcassets */,
+				2399C3ED1EF8B200007DCEDD /* LaunchScreen.storyboard */,
+				2399C3F01EF8B200007DCEDD /* Info.plist */,
 				2399C3E01EF8B200007DCEDD /* main.m */,
+				2399C3F61EF8B22F007DCEDD /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 				TargetAttributes = {
 					2399C3DB1EF8B200007DCEDD = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RAJ2TC584R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,7 +277,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAJ2TC584R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGExclusiveTouch/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGExclusiveTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGExclusiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,7 +292,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAJ2TC584R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGExclusiveTouch/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGExclusiveTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGExclusiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";

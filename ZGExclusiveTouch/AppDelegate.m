@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //这是对全局的button的重复点击做处理
+    [[UIButton appearance]setExclusiveTouch:YES];
     return YES;
 }
 

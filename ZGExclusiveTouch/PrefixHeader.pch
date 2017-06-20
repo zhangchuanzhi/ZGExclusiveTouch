@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  ZGExclusiveTouch
+//
+//  Created by offcn_zcz32036 on 2017/6/20.
+//  Copyright © 2017年 offcn. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//随机颜色
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#endif 
