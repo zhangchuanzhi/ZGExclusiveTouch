@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZGSpecDemo_Example' do
+  pod 'ZGSpecDemo', :path => '../'
+
+  target 'ZGSpecDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
