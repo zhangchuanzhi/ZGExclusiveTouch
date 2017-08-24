@@ -1,0 +1,22 @@
+{
+  "name": "ZGSpecDemo",
+  "version": "0.1.0",
+  "summary": "A short description of ZGSpecDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangchuanzhi/ZGSpecDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangchuanzhi": "18310127735@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangchuanzhi/ZGSpecDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZGSpecDemo/Classes/**/*"
+}

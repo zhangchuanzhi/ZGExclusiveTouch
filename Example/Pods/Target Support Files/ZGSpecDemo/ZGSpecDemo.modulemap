@@ -1,0 +1,6 @@
+framework module ZGSpecDemo {
+  umbrella header "ZGSpecDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
